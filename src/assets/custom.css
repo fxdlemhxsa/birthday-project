@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components{
+    .time {
+        @apply relative font-semibold min-w-[82px];
+    }
+    .labelCount {
+        @apply text-sm w-full absolute bottom-0 tracking-widest font-light;
+    }
+    .btn {
+        @apply transition duration-300 text-[#404258] bg-[#A3C7D6] hover:bg-[#7978FF] font-medium rounded-lg text-sm px-5 py-2.5 mb-2;
+    }
+    .swipper-slide {
+        @apply w-[60%]
+    }
+}
